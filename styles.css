@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.high-score {
+    color: black;
+    background-color: blue;
+}
+
+.good-score {
+    color: black;
+    background-color: green;
+}
+
+.regular-score {
+    color: black;
+    background-color: yellow;
+}
+
+.bad-score {
+    color: black;
+    background-color: orangered;    
+}

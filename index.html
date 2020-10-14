@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>Habitica App Study</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Habitica's API Consumer</h1>
+        <div ng-controller="tasksController">
+            <table>
+                <tr ng-repeat="daily in dailies">
+                    <td>{{daily.name}}</td>
+                    <td ng-class="daily.cssClass">{{daily.score}}</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
