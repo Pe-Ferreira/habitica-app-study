@@ -13,4 +13,6 @@ It has a very brute look (Maybe I'll add some real CSS in the future, maybe I wo
 
 The data that is shown refers to my own character, a _fighter_.
 
-It was fun. Thank you for reading until here :heart:
+To run the project clone this repository and open the `index.html` file.
+
+This one was fun. Thank you for reading until here :heart:
